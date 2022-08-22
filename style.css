@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121214;
+  
+  color: #E1E1E6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 725px;
+  height: auto;
+  margin: 40px auto 20px;
+}
+
+h1,
+h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 span {
+  color: #04D361;
+  font-size: 25px;
+}
+
+h2 span {
+  color: #996DFF;
+  font-size: 25px;
+}
+
+main {
+  margin-top: 20px;
+
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.text p .number {
+  color: #04D361;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.text p span {
+  color: #996DFF;
+}
+
+ul {
+  list-style: none;
+}
+
+.text li span {
+  color: #996DFF;
+  font-size: 13px;
+}
